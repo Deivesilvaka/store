@@ -199,7 +199,7 @@
       resultsEl.innerHTML = "";
       if (!Array.isArray(list) || list.length === 0) {
         resultsEl.innerHTML =
-          '<p class="footer-note">Nenhum produto encontrado. Atualize src/db/products.json para adicionar itens.</p>';
+          '<p class="footer-note">Nenhum produto encontrado.</p>';
         return;
       }
       const fragment = document.createDocumentFragment();
