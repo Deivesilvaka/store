@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Móveis Promo — Achadinhos Shopee</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="brand">
+          <div class="logo">🏠</div>
+          <h1>Móveis Promo</h1>
+        </div>
+        <p class="tagline">Móveis, decoração e economia em um só lugar 🏡</p>
+        <div class="search-wrap">
+          <input
+            id="search"
+            type="search"
+            placeholder="Buscar por nome do produto..."
+            aria-label="buscar produtos"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="results" class="grid"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">Feito com ♡ — Móveis Para Casa Promo</div>
+    </footer>
+
+    <script>
+      window.CONFIG = {
+        CORS_PROXY: "",
+      };
+      window.CONFIG.CORS_PROXY = "https://api.allorigins.win/raw?url=";
+    </script>
+    <script src="src/js/app.js"></script>
+  </body>
+</html>
